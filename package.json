@@ -1,12 +1,12 @@
 {
-  "name": "vue-m-touch",
+  "name": "vue-mb-touch",
   "version": "1.0.2",
-  "description": "vue-m-touch是一个vue的移动端的事件项目,内置了点击(press)事件，长按(press)事件",
+  "description": "vue-mb-touch是一个vue的移动端的事件项目,内置了点击(press)事件，长按(press)事件",
   "main": "dist/vueMTouch.umd.min.js",
   "typings": "types/index.d.ts",
   "files":[ "lib", "dist/*.js", "types/*.d.ts", "README.md"],
-  "keywords": ["vue-m-touch","tap","press","hold","event"],
-  "author": "strongs <2233547477@qq.com> (https://github.com/ZengqiangLi/vue-m-touch)",
+  "keywords": ["vue-mb-touch","tap","press","hold","event"],
+  "author": "strongs <2233547477@qq.com> (https://github.com/ZengqiangLi/vue-mb-touch)",
   "private":false,
   "license": "MIT",
   "scripts": {

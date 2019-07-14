@@ -1,5 +1,5 @@
-# vue-m-touch
-vue-m-touch 是一个vue的移动端的事件项目,内置了点击(press)事件，长按(press)事件
+# vue-mb-touch
+vue-mb-touch 是一个vue的移动端的事件项目,内置了点击(press)事件，长按(press)事件
 
 <!-- **[LIVE DEMO]()** -->
 demo 后面会抽空写出来
@@ -7,7 +7,7 @@ demo 后面会抽空写出来
 ---
 ## 安装
 ````
-npm install vue-m-touch
+npm install vue-mb-touch
 ````
 
 
@@ -29,7 +29,7 @@ npm install vue-m-touch
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import vueMobileTouch from "vue-m-touch";
+import vueMobileTouch from "vue-mb-touch";
 
 Vue.use(vueMobileTouch);
 
@@ -69,7 +69,7 @@ export default class Home extends Vue {
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import vueMobileTouch from "vue-m-touch";
+import vueMobileTouch from "vue-mb-touch";
 
 Vue.use(vueMobileTouch);
 
@@ -95,10 +95,10 @@ export default class Home extends Vue {
 
 
 ## 全局配置
-在引入 vue-m-touch 时，可以传入一个全局配置对象。该对象目前支持 maxDistance 与 pressTime， maxDistance 用于手指在屏幕上移动多长距离内可触发事件默认10，pressTime 用于手机按住屏幕多长时间触发长按事件,默认650。具体操作如下：
+在引入 vue-mb-touch 时，可以传入一个全局配置对象。该对象目前支持 maxDistance 与 pressTime， maxDistance 用于手指在屏幕上移动多长距离内可触发事件默认10，pressTime 用于手机按住屏幕多长时间触发长按事件,默认650。具体操作如下：
 ````
 import Vue from 'vue';
-import vueMobileTouch from "vue-m-touch";
+import vueMobileTouch from "vue-mb-touch";
 
 Vue.use(vueMobileTouch, {maxDistance: 10,pressTime: 650});
 
