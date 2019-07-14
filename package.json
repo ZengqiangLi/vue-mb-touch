@@ -12,7 +12,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name vueMTouch ./lib/index.ts",
+    "build-bundle": "vue-cli-service build --target lib --name vueMBTouch ./lib/index.ts",
     "pub": "npm run build-bundle && npm publish --registry http://registry.npmjs.org",
     "lint": "vue-cli-service lint",
     "push":"git push && git push git-osc --all "
