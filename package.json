@@ -1,7 +1,7 @@
 {
   "name": "vue-mb-touch",
   "version": "1.0.3",
-  "description": "vue-mb-touch是一个vue的移动端的事件项目,内置了点击(press)事件，长按(press)事件",
+  "description": "vue-mb-touch是一个vue的移动端的事件项目,内置了点击(tap)事件，长按(press)事件",
   "main": "dist/vueMTouch.umd.min.js",
   "typings": "types/index.d.ts",
   "files":[ "lib", "dist/*.js", "types/*.d.ts", "README.md"],

@@ -1,5 +1,5 @@
 # vue-mb-touch
-vue-mb-touch 是一个vue的移动端的事件项目,内置了点击(press)事件，长按(press)事件
+vue-mb-touch 是一个vue的移动端的事件项目,内置了点击(tap)事件，长按(press)事件
 
 <!-- **[LIVE DEMO]()** -->
 demo 后面会抽空写出来
